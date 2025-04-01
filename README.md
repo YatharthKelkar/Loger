@@ -30,6 +30,9 @@ JavaScript - Form validation and interactions
 
 📂 login-page
  ├── 📄 index.html  # Main login page
+
+ ├── 📄 submit.html  # Next page
+ 
  ├── 📄 README.md   # Project documentation
 
 <h2>📥 Installation</h2>
