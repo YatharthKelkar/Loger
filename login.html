@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                background-color: palevioletred;
+                color: white;
+                text-align: center;
+                font-family: Arial, sans-serif;
+            }
+            
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 150px;
+            }
+
+            .login {
+                font-weight: bold;
+                font-size: 50px;
+                margin-bottom: 20px;
+            }
+
+            .input-box {
+                color: rgb(92, 100, 190);
+                font-size: 20px;
+                margin: 10px 0;
+            }
+
+            .input-box input {
+                padding: 10px;
+                font-size: 20px;
+                border-radius: 10px;
+                border: none;
+                text-align: center;
+            }
+
+            .button {
+                background-color: pink;
+                color: black;
+                border: none;
+                font-size: x-large;
+                border-radius: 40px;
+                padding: 10px 30px;
+                cursor: pointer;
+                margin-top: 20px;
+                transition:2s;
+                margin-top:50px;
+            }
+
+            .button:hover {
+                background-color: lightcoral;
+            }
+            .rm {             
+                padding: 10px;
+                font-size: 13px;
+                border-radius: 10px;
+                border: none;
+                text-align: center;
+                margin-left:-0px;
+                margin-top:-110px;            
+            }
+            .text{
+                color:white;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="login">Login</div>
+            <div class="input-box">
+                <input type="text" id="username" placeholder="Username">
+            </div>
+            <div class="input-box">
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <button class="button" onclick="authenticate()">Submit</button>
+            <div class = "rm">
+                Remember Me <input type = "checkbox">
+            </div>
+        </div>
+
+        <script>
+              function authenticate() {
+                var username = document.getElementById("username").value;
+                var password = document.getElementById("password").value;
+                var correctPassword = "Ysk@300712"; // Updated password
+                var correctUsername = "";
+                
+                if (password === correctPassword)
+                 {
+                    window.location.href = "submit.html"; // Redirect on success
+                }else {
+                    alert("Incorrect password. Please try again.");
+                }
+            }
+        </script>
+    </body>
+</html>
