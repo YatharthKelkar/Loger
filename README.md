@@ -1,10 +1,10 @@
-Login Page
+<h1>Login Page</h1>
 
-🚀 Introduction
+<h2>🚀 Introduction</h2>
 
 Welcome to the Login Page project! This is a simple yet stylish authentication page that provides a secure login interface. It is designed to be responsive, user-friendly, and easy to integrate into any web application.
 
-🎨 Features
+<h2>🎨 Features</h2>
 
 🔒 Secure and user-friendly login form
 
@@ -18,7 +18,7 @@ Welcome to the Login Page project! This is a simple yet stylish authentication p
 
 ⚡ Fast and lightweight
 
-🛠️ Technologies Used
+<h2>🛠️ Technologies Used</h2>
 
 HTML5 - Structure of the page
 
@@ -26,15 +26,13 @@ CSS3 - Styling and animations
 
 JavaScript - Form validation and interactions
 
-📂 Project Structure
+<h2>📂 Project Structure</h2>
 
 📂 login-page
  ├── 📄 index.html  # Main login page
- ├── 📄 style.css   # Styling file
- ├── 📄 script.js   # JavaScript for validation
  ├── 📄 README.md   # Project documentation
 
-📥 Installation
+<h2>📥 Installation</h2>
 
 Clone the repository:
 
@@ -46,7 +44,7 @@ cd login-page
 
 Open index.html in your browser.
 
-⚙️ Usage
+<h2>⚙️ Usage</h2>h
 
 Enter a valid username and password.
 
@@ -54,20 +52,16 @@ Click the Login button to submit.
 
 If credentials are incorrect, an error message will be displayed.
 
-💡 Customization
+<h2>💡 Customization </h2>
 
 To customize the styles, edit the style.css file. Modify the color scheme, button styles, and animations as per your preference.
 
-📸 Screenshots
-
-
-
-🏆 Contribution
+<h2>🏆 Contribution </h2>
 
 Want to improve this project? Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
 
-📜 License
+<h2>📜 License</h2>
 
-This project is licensed under the MIT License.
+This project is not licensed under the MIT License.
 
-✨ Designed with 💙 by [Your Name] ✨
+<h2>✨ Designed with 💙 by Yatharth Kelkar ✨</h2>
